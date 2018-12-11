@@ -10,12 +10,13 @@ const NiceDayForARun = styled.div`
     text-align: center;
     color: #404040;
     background: #EDEEED;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
 `
 
 const GlobalStyles = createGlobalStyle`
     html, body {
+      background: #EDEEED;
       margin: 0px;
       padding: 0px;
     }
@@ -38,13 +39,7 @@ const GlobalStyles = createGlobalStyle`
         font-weight: 400;
         margin: 1px;
     }
-     .App {
-        text-align: center;
-    }
-     .video {
-        cursor: pointer;
-        border: 1px solid #B0B0B0;
-    }
+
 `
 
 
@@ -221,10 +216,10 @@ class App extends Component {
     return (
 
       <NiceDayForARun>
-        <GlobalStyles />
         <h1>Nice Day for a Run</h1>
         <h3>I recorded a short video about my run every day in 2017.</h3>
         {this.state.loading?"loading....":content}
+        <GlobalStyles />
       </NiceDayForARun>
 
     );
