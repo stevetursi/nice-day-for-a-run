@@ -1,0 +1,55 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"styled-components\"": 1,
+      "external \"@material-ui/core\"": 2,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!src/videos-scrubbed.js": 3,
+      "external \"@material-ui/core/List\"": 4,
+      "multi ./pages/index.js": 5,
+      "multi node_modules/next/dist/pages/_app.js": 6,
+      "node_modules/next/dist/pages/_app.js": 7,
+      "external \"next/app\"": 8,
+      "multi node_modules/next/dist/pages/_error.js": 9,
+      "node_modules/next/dist/pages/_error.js": 10,
+      "external \"next/error\"": 11,
+      "multi node_modules/next/dist/pages/_document.js": 12,
+      "node_modules/next/dist/pages/_document.js": 13,
+      "external \"next/document\"": 14,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js c793db48d4cdb2540e029e7878c1d8a3": 15
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/Hf__5GIGAb0HaYAVwOmIu/pages/index.js": 0,
+      "static/Hf__5GIGAb0HaYAVwOmIu/pages/_app.js": 1,
+      "static/Hf__5GIGAb0HaYAVwOmIu/pages/_error.js": 2,
+      "static/Hf__5GIGAb0HaYAVwOmIu/pages/_document.js": 3
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}
