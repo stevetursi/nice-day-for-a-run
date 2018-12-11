@@ -15,5 +15,8 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "next build"
+  },
+  "engines": {
+    "node": "11.4.x"
   }
 }
