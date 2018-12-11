@@ -1,18 +1,20 @@
 {
   "name": "ndfar",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@material-ui/core": "^3.6.2",
-    "babel-plugin-styled-components": "^1.9.4",
     "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "styled-components": "^4.1.2"
   },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.9.4"    
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "start-local": "next start",
     "start": "next start -p $PORT",
     "heroku-postbuild": "next build"
   },

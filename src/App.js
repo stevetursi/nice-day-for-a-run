@@ -2,7 +2,50 @@ import React, { Component } from 'react';
 import videos from './videos-scrubbed'
 import { GridList, GridListTile, GridListTileBar } from '@material-ui/core';
 import Subheader from '@material-ui/core/List';
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
+
+const NiceDayForARun = styled.div`
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    color: #404040;
+    background: #EDEEED;
+    margin: 0;
+    padding: 0;
+`
+
+const GlobalStyles = createGlobalStyle`
+    html, body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+
+    h1 {
+        font-size: 4em;
+        font-weight: 700;
+    }
+     h2 {
+        font-size: 3em;
+        font-weight: 700;
+    }
+     h3 {
+        font-size: 1em;
+        font-weight: 700;
+    }
+     h5 {
+        font-size: 0.4em;
+        font-weight: 400;
+        margin: 1px;
+    }
+     .App {
+        text-align: center;
+    }
+     .video {
+        cursor: pointer;
+        border: 1px solid #B0B0B0;
+    }
+`
 
 
 const PageRoot = styled.div`
@@ -177,11 +220,12 @@ class App extends Component {
 
     return (
 
-      <React.Fragment>
+      <NiceDayForARun>
+        <GlobalStyles />
         <h1>Nice Day for a Run</h1>
         <h3>I recorded a short video about my run every day in 2017.</h3>
         {this.state.loading?"loading....":content}
-      </React.Fragment>
+      </NiceDayForARun>
 
     );
   }
